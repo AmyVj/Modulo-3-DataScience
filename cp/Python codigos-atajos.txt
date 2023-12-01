@@ -1,0 +1,24 @@
+! pip install pymysql
+!pip install pandas 
+! pip install psycopg2
+! pip install sqlalchemy
+from itertools import permutations
+
+
+
+import pymysql
+
+conexion = pymysql.connect(
+   host='localhost',
+   user='root',
+   passwd='',
+   db=''
+)
+
+cursor = conexion.cursor()
+
+import requests 
+
+
+pd.read_csv('', )
+oferta
